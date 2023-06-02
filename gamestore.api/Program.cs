@@ -31,13 +31,16 @@ var builder = WebApplication.CreateBuilder(args);
 //create the app pipeline using the builder.build() method
 var app = builder.Build();
 
-//Define your endpoint with the app pipeline
+//Using The Mapgroup
+var group = app.MapGroup("/games")
+                .WithParameterValidation();
+               
 
 //Get Request for all Games
-app.MapGet("/games", () => games);
+group.MapGet("/", () => games);
 
 //Get Request for one Game
-app.MapGet("/games/{id}",(int id)=> {
+group.MapGet("/{id}",(int id)=> {
     Game? gameInQuestion = games.Find(game => game.ID == id);
 
     if(gameInQuestion is null){
@@ -48,14 +51,14 @@ app.MapGet("/games/{id}",(int id)=> {
     }
 }).WithName(GetGameEndPointName);
 
-app.MapPost("/games", (Game game)=>{
+group.MapPost("/", (Game game)=>{
     game.ID = games.Max(game => game.ID) + 1;
     games.Add(game);
 
     return Results.CreatedAtRoute(GetGameEndPointName, new {ID = game.ID}, game);
 });
 
-app.MapPut("/games/{id}", (int id, Game updatedGame)=>
+group.MapPut("/{id}", (int id, Game updatedGame)=>
 {
     Game? exisitngGame = games.Find(game => game.ID == id);
     if(exisitngGame is null){
@@ -74,7 +77,7 @@ app.MapPut("/games/{id}", (int id, Game updatedGame)=>
 }
 );
 
-app.MapDelete("/games/{id}",(int id)=>{
+group.MapDelete("/{id}",(int id)=>{
     Game? gameToBeDeleted = games.Find(game => game.ID == id);
     if(gameToBeDeleted is not null){
       games.Remove(gameToBeDeleted);

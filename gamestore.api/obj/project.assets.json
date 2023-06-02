@@ -1,11 +1,107 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net7.0": {
+      "Microsoft.OpenApi/1.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MinimalApis.Extensions/0.10.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.4.3",
+          "MiniValidation": "0.7.2"
+        },
+        "compile": {
+          "lib/net7.0/MinimalApis.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/MinimalApis.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "MiniValidation/0.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MiniValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MiniValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.OpenApi/1.4.3": {
+      "sha512": "rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
+      "type": "package",
+      "path": "microsoft.openapi/1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.4.3.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
+    "MinimalApis.Extensions/0.10.1": {
+      "sha512": "1TAhHOVW+JY6nEqpq8anQSRCwLk7b9SKZg0TAkuEmHDdOTMEz4yBS0x7EM32V0313/vaBFhnrgotgjeizzF/nA==",
+      "type": "package",
+      "path": "minimalapis.extensions/0.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/MinimalApis.Extensions.dll",
+        "lib/net6.0/MinimalApis.Extensions.xml",
+        "lib/net7.0/MinimalApis.Extensions.dll",
+        "lib/net7.0/MinimalApis.Extensions.xml",
+        "minimalapis.extensions.0.10.1.nupkg.sha512",
+        "minimalapis.extensions.nuspec"
+      ]
+    },
+    "MiniValidation/0.7.2": {
+      "sha512": "5OVWsUw6q5doL63Ki7JdlXD62C5N1eO7YNxxbIdN7nQk53l10juVkFSYoKFmLenL8qpNmoyU6OwEr4MulaibBw==",
+      "type": "package",
+      "path": "minivalidation/0.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/MiniValidation.dll",
+        "lib/net6.0/MiniValidation.xml",
+        "lib/netstandard2.0/MiniValidation.dll",
+        "lib/netstandard2.0/MiniValidation.xml",
+        "minivalidation.0.7.2.nupkg.sha512",
+        "minivalidation.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net7.0": [
+      "MinimalApis.Extensions >= 0.10.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {}
@@ -23,14 +119,15 @@
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +138,14 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "MinimalApis.Extensions": {
+            "target": "Package",
+            "version": "[0.10.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -62,7 +165,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
