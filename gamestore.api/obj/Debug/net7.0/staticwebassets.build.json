@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0gBIJYtXsC4lsFuLkxCz3TH24aa/DJOx6+h9Ua4Xj0g=",
+  "Source": "gamestore.api",
+  "BasePath": "_content/gamestore.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
