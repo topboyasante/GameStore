@@ -29,3 +29,34 @@ C:\Users\user\Desktop\GameStore\gamestore.api\obj\Debug\net7.0\refint\gamestore.
 C:\Users\user\Desktop\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.pdb
 C:\Users\user\Desktop\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.genruntimeconfig.cache
 C:\Users\user\Desktop\GameStore\gamestore.api\obj\Debug\net7.0\ref\gamestore.api.dll
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\appsettings.json
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\gamestore.api.exe
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\gamestore.api.deps.json
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\gamestore.api.runtimeconfig.json
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\gamestore.api.dll
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\gamestore.api.pdb
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\MinimalApis.Extensions.dll
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\bin\Debug\net7.0\MiniValidation.dll
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.AssemblyInfo.cs
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\staticwebassets\msbuild.gamestore.api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\staticwebassets\msbuild.build.gamestore.api.props
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.gamestore.api.props
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.gamestore.api.props
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\scopedcss\bundle\gamestore.api.styles.css
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.csproj.CopyComplete
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.dll
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\refint\gamestore.api.dll
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.pdb
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\gamestore.api.genruntimeconfig.cache
+C:\Users\user\Desktop\Secure Folder\GameStore\gamestore.api\obj\Debug\net7.0\ref\gamestore.api.dll

@@ -109,11 +109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\GameStore\\gamestore.api\\gamestore.api.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Secure Folder\\GameStore\\gamestore.api\\gamestore.api.csproj",
       "projectName": "gamestore.api",
-      "projectPath": "C:\\Users\\user\\Desktop\\GameStore\\gamestore.api\\gamestore.api.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Secure Folder\\GameStore\\gamestore.api\\gamestore.api.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\GameStore\\gamestore.api\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Secure Folder\\GameStore\\gamestore.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
